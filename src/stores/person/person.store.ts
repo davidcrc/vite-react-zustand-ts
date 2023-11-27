@@ -28,6 +28,7 @@ const storeAPi: StateCreator<
 });
 
 export const usePersonStore = create<PersonState & Actions>()(
+  // logger(
   devtools(
     persist(storeAPi, {
       name: "person-storage",
@@ -35,4 +36,5 @@ export const usePersonStore = create<PersonState & Actions>()(
       // storage: firebaseStorage, // Uncomment for use it
     })
   )
+  // )
 );
