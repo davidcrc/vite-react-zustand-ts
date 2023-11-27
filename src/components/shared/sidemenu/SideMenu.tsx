@@ -79,7 +79,9 @@ export const SideMenu = () => {
               alt=""
             />
           </span>
-          <span className="text-sm md:text-base font-bold">Edward Tompson</span>
+          <span className="text-sm md:text-base font-bold">
+            Albert Einstein
+          </span>
         </a>
       </div>
 
