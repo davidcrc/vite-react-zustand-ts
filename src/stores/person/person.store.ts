@@ -16,7 +16,7 @@ interface Actions {
 
 const storeAPi: StateCreator<
   PersonState & Actions,
-  [["zustand/devtools", never]]
+  [["zustand/devtools", never]] // for types on set naming action
 > = (set) => ({
   firstName: "",
   lastName: "",
